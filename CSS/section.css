@@ -1,0 +1,29 @@
+.section__navigation {
+    list-style: none;
+    padding: 0;
+  
+  }
+  
+  .section__outLink {
+    padding-top: 21px;
+  }
+  
+  .section__link {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  
+  .section__link:hover {
+    background-color: rgba(0, 255, 255, 0.090);
+    border-radius: 5px;
+    padding: 10px 10px;
+  }
+
+  .link {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+  }

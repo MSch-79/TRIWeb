@@ -1,0 +1,81 @@
+html {
+  box-sizing: border-box;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+.body {
+  background-color: rgb(245, 245, 241);
+  font-family: "Lato", sans-serif;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+
+}
+
+.header {
+  background-color: rgb(228, 28, 57, 1);
+  border-radius: 15px;
+  box-shadow: 2px 2px 8px #ccc;
+}
+
+.header__title {
+  padding: 15px;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 40px;
+  letter-spacing: 8px;
+  width: 100%;
+}
+
+.img {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px gray;
+}
+
+.figure {
+  margin: 5px 40px 20px 0px;
+}
+
+.specification__container {
+  overflow-x: auto;
+}
+
+.specification__subTitle {
+  padding-top: 20px;
+}
+
+.button {
+  margin: 15px;
+  margin-left: 0;
+  padding: 12px;
+  border-radius: 15px;
+  border: 1px solid rgb(110, 212, 246);
+  background-color: rgb(110, 212, 246);
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(71, 70, 70)
+}
+
+.footer {
+  background-color: rgb(228, 28, 57, 1);
+  border-radius: 15px;
+
+}
+
+.footer__text {
+  color: white;
+  max-width: 100%;
+  text-align: center;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.newBackground {
+  background-color: rgb(199, 199, 197);
+}

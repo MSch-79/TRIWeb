@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M4 Refactoring</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="CSS/section.css"/>
+    <link rel="stylesheet" href="CSS/content.css">
+    <link rel="stylesheet" href="CSS/table.css">
+    <link rel="stylesheet" href="CSS/style.css" />
+    <script defer src="JS/script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"/>
+  </head>
+
+  <body class="body">
+    <header class="header">
+      <h1 class="header__title">TRIATHLON</h1>
+    </header>
+
+    <section class="section">
+      <ul class="section__navigation">
+        <li class="section__outLink">
+          <a class="section__link" href="#czymJest?">Czym jest?</a>
+        </li>
+        <li class="section__outLink">
+          <a class="section__link" href="#historia">Historia i pochodzenie</a>
+        </li>
+        <li class="section__outLink">
+          <a class="section__link" href="#rodzaj">Rodzaje i dystanse</a>
+        </li>
+        <li class="section__outLink">
+          <a class="section__link" href="#linki">Linki zewnętrzne</a>
+        </li>
+        <li class="section__outLink">
+          <a class="section__link" href="#specyfikacja">Specyfikacja IRONMAN</a>
+        </li>
+      </ul>
+    </section>
+    <img
+      class="img"
+      src="https://i.postimg.cc/pr5YMrx5/triathlon-1.jpg"
+      alt="triathlon"/>
+    <figure class="figure">
+      source:<a class="link" href="https://pixabay.com/" target="blank">
+        www.pixabay.com</a>
+    </figure>
+    <section class="content">
+      <h2 class="content__subTitle" id="czymJest?">Czym jest?</h2>
+      <p class="content__paragraph">
+        <em>Triathlon</em> to wielodyscyplinarna forma zawodów sportowych, w
+        której uczestnicy rywalizują w trzech różnych dyscyplinach. Tradycyjnie
+        składa się on z następujących etapów:
+        <strong>Pływanie:</strong> Zawodnicy rozpoczynają rywalizację od etapu
+        pływania, który może odbywać się w otwartych wodach (jeziora, morza) lub
+        na basenie. Długość trasy zależy od konkretnej imprezy, ale standardowy
+        dystans to 1,5 km. <strong>Jazda na rowerze:</strong> Po zakończeniu
+        etapu pływackiego uczestnicy przechodzą do etapu jazdy na rowerze.
+        Dystans ten również może się różnić, ale najczęściej spotykane
+        odległości to 40 km lub 180 km. <strong>Bieg:</strong> Ostatnią częścią
+        triathlonu jest bieg. Zawodnicy muszą pokonać ustalony dystans, który
+        zazwyczaj wynosi 10 km, choć może być też krótszy lub dłuższy, w
+        zależności od konkretnej imprezy. Triathlon obejmuje różne odmiany, w
+        tym
+        <em
+          ><b
+            >sprint triathlon, olimpijski triathlon, pół ironman, czy pełny
+            ironman,</b
+          >
+        </em>
+        które różnią się długościami poszczególnych etapów.
+        <em>Triathlon</em> stał się popularnym sportem rekreacyjnym, a także
+        dyscypliną olimpijską, debiutując na Igrzyskach Olimpijskich w Sydney w
+        2000 roku. W triathlonie ważne są nie tylko umiejętności fizyczne, ale
+        także wytrwałość, determinacja i umiejętność efektywnego przejścia z
+        jednej dyscypliny na drugą.
+      </p>
+      <h2 class="content__subTitle" id="historia">Histroria i pochodzenie</h2>
+
+      <p class="content__paragraph content__paragraph--history ">
+        <em>W 1974 roku w Kalifornii Jack Johnstone i Don Shanahan</em>
+        stworzyli pierwszy triathlon, łączący pływanie, jazdę na rowerze i bieg.
+        To wydarzenie było początkiem ekscytującej historii triathlonu.
+        Oficjalny debiut dyscypliny nastąpił w San Diego, a dynamiczny rozwój
+        przyniósł wprowadzenie ironmanów na Hawajach w 1978 roku, ustanawiając
+        trzykrotnie dłuższy dystans. W 1989 roku triathlon uzyskał status sportu
+        olimpijskiego, a jego prestiż wzrósł dzięki pierwszym zawodom
+        olimpijskim w Sydney w 2000 roku.
+        <b>Ironman World Championship</b> stał się globalnym fenomenem,
+        przyciągając elity światowego triathlonu. Z czasem triathlon stał się
+        dostępny dla różnych grup wiekowych, od dzieci po seniorów, a rosnąca
+        popularność konkurencji kobiecych wpłynęła na równość w dyscyplinie.
+        Dziś triathlon to nie tylko intensywna rywalizacja sportowa, ale również
+        forma rekreacji, inspirująca społeczność entuzjastów do pokonywania
+        trzech różnorodnych wyzwań, rozwijania umiejętności i promowania ducha
+        rywalizacji.</p>
+
+      <h2 class="content__subTitle" id="rodzaj">Rodzaje i dystanse</h2>
+      <div class="content__container">
+        <table class="table">
+          <tr class="table__row">
+            <th class="table__header">Dystans</th>
+            <th class="table__header">Pływanie</th>
+            <th class="table__header">Jazda na rowerze</th>
+            <th class="table__header">Bieg</th>
+          </tr>
+          <tr class="table__row">
+            <th class="table__header">Supersprint</th>
+            <td class="table__cell">400 metrów</td>
+            <td class="table__cell">10 km</td>
+            <td class="table__cell">2.5 km</td>
+          </tr>
+          <tr class="table__row">
+            <th class="table__header">Sprint</th>
+            <td class="table__cell">750 metrów</td>
+            <td class="table__cell">20 km</td>
+            <td class="table__cell">5 km</td>
+          </tr>
+          <tr class="table__row">
+            <th class="table__header">Olimpijski</th>
+            <td class="table__cell">1500 metrów</td>
+            <td class="table__cell">40 km</td>
+            <td class="table__cell">10 km</td>
+          </tr>
+          <tr class="table__row">
+            <th class="table__header">1/8 Ironman</th>
+            <td class="table__cell">475 mertów</td>
+            <td class="table__cell">22.5 km</td>
+            <td class="table__cell">5.27 km</td>
+          </tr>
+          <tr class="table__row">
+            <th class="table__header">1/4 Ironman</th>
+            <td class="table__cell">950 metrów</td>
+            <td class="table__cell">45 km</td>
+            <td class="table__cell">10.55 km</td>
+          </tr>
+          <tr class="table__row">
+            <th class="table__header">Ironman 70.3</th>
+            <td class="table__cell">1900 metrów</td>
+            <td class="table__cell">90 km</td>
+            <td class="table__cell">21.1 km</td>
+          </tr>
+          <tr class="table__row">
+            <th class="table__header">Iron man</th>
+            <td class="table__cell">3800 metrów</td>
+            <td class="table__cell">180 km</td>
+            <td class="table__cell">42.2 km</td>
+          </tr>
+          <tfoot></tfoot>
+        </table>
+      </div>
+
+      <h2 class="content__subTitle" id="linki">Linki</h2>
+
+      <ul class="content__linkList">
+        <li class="content__outLink">
+          <a
+            class="content__link content__link--special "
+            href="https://www.ironman.com/"
+            target="_blank"
+            >www.ironman.com
+          </a>
+        </li>
+        <li class="content__outLink">
+          <a
+            class="content__link content__link--special"
+            href="https://www.triathlete.com/"
+            target="_blank"
+            >www.triathlete.com
+          </a>
+        </li>
+        <li class="content__outLink">
+          <a
+            class="content__link content__link--special"
+            href="https://www.triathlon.org/"
+            target="_blank"
+            >www.triathlon.org</a>
+        </li>
+      </ul>
+    </section>
+    <section class="specification">
+      <h2 class="cpecification__subTitle" id="specyfikation">
+        Specyfikacja <strong class="triSpec">IRONMAN</strong>
+      </h2>
+      <div class="specification__container">
+        <table class="table">
+          <tr class="table__row">
+            <th class="table__header">Town/City</th>
+            <th class="table__header">Country</th>
+            <th class="table__header">Region</th>
+            <th class="table__header">Water type</th>
+            <th class="table__header">Wetsuit Rule</th>
+            <th class="table__header">Swimming loops</th>
+            <th class="table__header">Biking loops</th>
+            <th class="table__header">Running loops</th>
+          </tr>
+          <tr class="table__row">
+            <td class="table__cell--place">Klagenfurt</td>
+            <td class="table__cell">Austria</td>
+            <td rowspan="9">Europe</td>
+            <td class="table__cell">fresh</td>
+            <td class="table__cell">-</td>
+            <td class="table__cell">1</td>
+            <td colspan="2">2</td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__cell--place">Copenhagen</td>
+            <td class="table__cell">Denmark</td>
+            <td class="table__cell">salt</td>
+            <td class="table__cell">Mandatory</td>
+            <td class="table__cell">1</td>
+            <td class="table__cell">2</td>
+            <td class="table__cell">4</td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__cell--place">Bolton</td>
+            <td class="table__cell">England</td>
+            <td class="table__cell">fresh</td>
+            <td class="table__cell">-</td>
+            <td class="table__cell">2</td>
+            <td class="table__cell">3</td>
+            <td class="table__cell">4</td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__cell--place">Tallinn</td>
+            <td class="table__cell">Estonia</td>
+            <td class="table__cell">fresh</td>
+            <td class="table__cell">-</td>
+            <td class="table__cell" colspan="2">2</td>
+            <td class="table__cell">4</td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__cell--place">Nice</td>
+            <td class="table__cell" rowspan="2">France</td>
+            <td class="table__cell">salt</td>
+            <td class="table__cell">-</td>
+            <td class="table__cell">2</td>
+            <td class="table__cell">1</td>
+            <td class="table__cell">4</td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__cell--place">Vichy</td>
+            <td class="table__cell">fresh</td>
+            <td class="table__cell">generally forbidden</td>
+            <td class="table__cell">1</td>
+            <td class="table__cell">2</td>
+            <td class="table__cell">4</td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__cell--place">Hamburg</td>
+            <td class="table__cell" rowspan="2">Gremany</td>
+            <td class="table__cell">fresh</td>
+            <td class="table__cell">-</td>
+            <td class="table__cell">1</td>
+            <td class="table__cell">2</td>
+            <td class="table__cell">4</td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__cell--place">Frankfurt</td>
+            <td class="table__cell">fresh</td>
+            <td class="table__cell">-</td>
+            <td class="table__cell">1</td>
+            <td class="table__cell">2</td>
+            <td class="table__cell">4</td>
+          </tr>
+          <tr class="table__row">
+            <td class="table__cell--place">Emilia Romagna</td>
+            <td class="table__cell">Italy</td>
+            <td class="table__cell">salt</td>
+            <td class="table__cell">-</td>
+            <td class="table__cell">1</td>
+            <td class="table__cell">2</td>
+            <td class="table__cell">4</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <p></p>
+    <button class="button">
+      Zmień tło na <span class="buttonSpan">ciemne</span>
+    </button>
+    <footer class="footer">
+      <p class="footer__text">Copyright by MSC 2024</p>
+    </footer>
+  </body>
+</html>

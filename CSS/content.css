@@ -1,0 +1,37 @@
+.content__subTitle {
+    padding-top: 20px;
+  }
+  
+  .content__paragraph {
+    box-shadow: 2px 5px 8px #ccc;
+    line-height: 1.5;
+    padding: 10px;
+  }
+
+  .content__paragraph--history {
+    background-color: rgb(217, 248, 238);
+  }
+  
+  .content__container {
+    overflow-x: auto;
+  }
+
+  .content__linkList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .content__outLink {
+    padding-top: 18px;
+  }
+  
+  .content__link{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 0px;
+  }
+
+  .content__link--special {
+    color:rgb(228, 28, 57, 1);
+  }
